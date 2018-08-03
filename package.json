@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joakin/markdown-folder-to-html.git"
+    "url": "git+https://github.com/isysd/markdown-folder-to-html-bootstrap.git"
   },
   "keywords": [
     "markdown",
@@ -32,9 +32,9 @@
   "author": "Joaquin Oltra <joaquin@chimeces.com> (http://chimeces.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joakin/markdown-folder-to-html/issues"
+    "url": "https://github.com/joakin/markdown-folder-to-html-bootstrap/issues"
   },
-  "homepage": "https://github.com/joakin/markdown-folder-to-html#readme",
+  "homepage": "https://github.com/joakin/markdown-folder-to-html-bootstrap#readme",
   "dependencies": {
     "markdown-it": "^8.4.0",
     "shelljs": "^0.7.8"
