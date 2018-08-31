@@ -21,12 +21,12 @@ Given we have some docs:
 
 1. Install `npm install -D markdown-folder-to-html-bootstrap`
 2. Add `docs` to npm scripts `{"scripts": {"docs": "markdown-folder-to-html-bootstrap"}}`
-3. 🎉 `npm run docs` and `open _docs/index.html`
+3. 🎉 `npm run docs` and `open _docs/index.html-bootstrap`
 
 ### Globally
 
-1. Install `npm install -g markdown-folder-to-html-bootstrap`
-2. 🎉 `markdown-folder-to-html-bootstrap` and `open _docs/index.html`
+1. Install `npm install -g markdown-folder-to-html`
+2. 🎉 `markdown-folder-to-html` and `open _docs/index.html`
 
 ## Conventions
 
@@ -37,7 +37,7 @@ You can pass an argument to the cli to change the input folder (by default
 `_docs`).
 
 ```bash
-markdown-folder-to-html-bootstrap documentation
+markdown-folder-to-html documentation
 # Outputs site to _documentation
 ```
 
@@ -46,7 +46,7 @@ If you want to change the output folder name, just `mv` it to something else.
 ### Custom HTML
 
 The default HTML is extremely basic, but
-[simple and pretty](https://github.com/isysd/markdown-folder-to-html-bootstrap/blob/master/docs/template.html),
+[simple and pretty](https://github.com/joakin/markdown-folder-to-html/blob/master/docs/template.html),
 and is the one used in the docs.
 
 This is the basic template that would work:
@@ -103,8 +103,8 @@ the original markup, the HTML, the original path and the transformed URL:
     {
       "path": "index.md",
       "url": "index.html",
-      "content": "# markdown-folder-to-html-bootstrap\n\nSimplest zero-config ...",
-      "html": "<h1>markdown-folder-to-html-bootstrap</h1>\n<p>Simplest zero-config ...",
+      "content": "# markdown-folder-to-html\n\nSimplest zero-config ...",
+      "html": "<h1>markdown-folder-to-html</h1>\n<p>Simplest zero-config ...",
       "id": 0
     },
     {
@@ -119,7 +119,7 @@ the original markup, the HTML, the original path and the transformed URL:
 }
 ```
 
-See the [JSON file](https://chimeces.com/markdown-folder-to-html-bootstrap/contents.json)
+See the [JSON file](https://chimeces.com/markdown-folder-to-html/contents.json)
 of our documentation site for an example.
 
 You can then fetch this JSON file with JS from your template, and go crazy with
@@ -142,8 +142,3 @@ relied on simple concepts. That is what this tool does:
   real path on your markdown files and they'll work on the HTML version too.
 * Provide sensible defaults and zero-configuration. JUST WORK.
 * Use know abstraction, like the file system, pure HTML, etc
-
-## Links
-
-* https://github.com/isysd/markdown-folder-to-html-bootstrap
-* https://npmjs.org/package/markdown-folder-to-html-bootstrap
