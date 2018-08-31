@@ -37,12 +37,12 @@
   "homepage": "https://github.com/joakin/markdown-folder-to-html-bootstrap#readme",
   "dependencies": {
     "markdown-it": "^8.4.0",
-    "shelljs": "^0.7.8"
+    "shelljs": "^0.8.2"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
     "prettier": "^1.8.2",
-    "tap-dot": "^1.0.5",
+    "tap-dot": "^2.0.0",
     "tape": "^4.8.0"
   }
 }
